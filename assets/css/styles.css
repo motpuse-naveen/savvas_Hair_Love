@@ -1,4 +1,4 @@
-html, body {I
+html, body {
     min-height: 100%;
   }
 body {
@@ -188,9 +188,9 @@ body, html {
     position: absolute;
     background-color: #919E57;
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
-    left: -50px;
+    width: 280px;
+    height: 280px;
+    left: -80px;
     top: -40px;
     z-index: -1;
 }
@@ -204,7 +204,7 @@ body, html {
     font-family: 'poppins-regular';
     font-size: 14px;
     color: #03030280;
-    padding: 6px 55px;
+    padding: 6px 35px;
     padding-left: 0px;
     line-height: 1.2em;
 }
@@ -596,14 +596,14 @@ table.table-style2 .trbg {
 }
 
 .award-circle {
-    height: 162px;
+    /*height: 162px;*/
     width: 162px;
     background-color: #EBC979;
     border-radius: 50%;
 }
 
 .award-circle .award-text {
-    padding: 52px 15px;
+    padding: 48px 15px;
     font-family: 'poppins-semibold';
     font-size: 20px;
     text-align: center;
@@ -646,7 +646,7 @@ h1.main-heading {
 
 .author-container .author-wrap {
     float: right;
-    padding-right: 32px;
+    padding-right: 20px;
 }
 
 .author-container .text {
@@ -654,6 +654,8 @@ h1.main-heading {
     font-family: 'poppins-regular';
     color: #FFFFFF;
     margin-right: 15px;
+    margin-top: 23px;
+    float: left;
 }
 
 .boxImage{
@@ -682,6 +684,9 @@ h1.main-heading {
     top: 107px;
     left: 15px;
     z-index: 91;
+    background: transparent;
+    border-style: none;
+    height: 36px;
 }
 
 .moreInfo .linkmoreinfo {

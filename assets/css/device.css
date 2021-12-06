@@ -84,9 +84,11 @@
         margin-top: -24px;
     }
     .author-wrap span.text {
-       /* margin: 15px;*/
+       margin-left: 15px;
         padding-top: 20px;
+        float: initial;
     }
+   
     .orbitdiv {
         position: absolute;
         top: 215px;
