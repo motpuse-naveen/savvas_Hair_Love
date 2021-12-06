@@ -1,4 +1,4 @@
-html, body {
+html, body {I
     min-height: 100%;
   }
 body {
@@ -580,7 +580,7 @@ table.table-style2 .trbg {
 }
 
 .rikshaw-girl-bg {
-    background: url(../images/Hero_RickShawGirl_8bit.png);
+    background: url(../images/Hero_HairLove_8bit.png);
     background-size: 80%;
     background-repeat: no-repeat;
     background-position-x: -165px;
@@ -592,18 +592,18 @@ table.table-style2 .trbg {
 
 .award-circle-wrap {
     padding-left: 30px;
-    padding-top: 45px;
+    padding-top: 61px;
 }
 
 .award-circle {
-    height: 180px;
-    width: 180px;
+    height: 162px;
+    width: 162px;
     background-color: #EBC979;
     border-radius: 50%;
 }
 
 .award-circle .award-text {
-    padding: 34px 15px;
+    padding: 52px 15px;
     font-family: 'poppins-semibold';
     font-size: 20px;
     text-align: center;
@@ -620,7 +620,7 @@ table.table-style2 .trbg {
 .rikshaw-girl-text {
     position: relative;
     padding-top: 90px;
-    padding-left: 105px;
+    padding-left: 177px;
 }
 
 h1.main-heading {
@@ -631,6 +631,9 @@ h1.main-heading {
     letter-spacing: -10px;
     line-height: 170px;
     margin-right: 72px;
+}
+.hsubtitle{
+	margin-left: 199px;
 }
 
 .author-container {
@@ -643,7 +646,7 @@ h1.main-heading {
 
 .author-container .author-wrap {
     float: right;
-    padding-right: 72px;
+    padding-right: 32px;
 }
 
 .author-container .text {
@@ -652,6 +655,17 @@ h1.main-heading {
     color: #FFFFFF;
     margin-right: 15px;
 }
+
+.boxImage{
+	width: 60%;
+	margin:0 auto;
+}
+
+.imgrefect{
+	width: 60%;
+	margin:0 auto;
+}
+
 
 .moreInfo-container {
     z-index: 10;
@@ -759,6 +773,15 @@ blockquote {
     opacity: 1;
 }
 
+
+.itemtxt{}
+
+.soundwords{
+	text-align: center;
+	padding-top:10px;
+	font:Poppins;
+}
+
 .intenseband {
     background-color: #D5D5D5;
     border: 1px solid #707070;
@@ -808,9 +831,9 @@ background-color: #000000;
 
 
 .actbtnFixed{
-    position: fixed;
-    left: 30px;
-    top: 350px;
+    position: relative;
+    /*left: 30px;
+    top: 350px;*/
 }
 .aboutBook{
     font-size: 15px;
@@ -1192,4 +1215,106 @@ img.aboutBookCover{
   }
 
   .zposition{min-width:350px;}
+  .numberlist{margin-left:6px;}
+  .subcircle{
+	 width: 100%;
+    height: 153px;
+    background: url(../images/reflect.jpg);
+    background-size: cover;
+	}
+	
+	.avtar{
+	width: 80%;
+	text-align:center;
+	
+	
+}
+
+
+	/*.avatarimg{
+	width: 64%;
+    height: 153px;
+    background: url(../images/character.png);
+    background-size: cover;
+	margin: 0 auto;
+	}
+	
+	.avatarheading{text-align: center;}
+	.avatartext{text-align: center; padding-top:41px;}*/
+	
+	.soundCard{
+	 width: 50%;
+	 height: auto;
+	/*background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 3px 3px 6px #00000029;
+	border: 1px solid #707070;
+	border-radius: 3px;
+	opacity: 1;*/
+	margin:0 auto;
+}
+
+
+.soundCard1{
+	width: 50%;
+	margin:0 auto;
+}
+
+	
+	.containerimg{
+	
+	width: 60%;
+	text-align:center;
+	margin: 10px auto;
+	}
+	
+	/*.block1{
+	width: 100%;
+    height: auto;
+    border-radius: 16px;
+    border: 2px solid black;
+	position:relative;
+	}
+	.block2{
+	width: 95%;
+    height: auto;
+    border-radius: 16px;
+    border: 2px solid black;
+    margin: 9px auto;
+	position:relative;
+	}
+	
+	.circletop{
+		border-radius: 50%;
+    width: 30%;
+    height: 80px;
+    border: 2px solid;
+    margin: 5px;
+	}
+
+.recttop{
+    width: 60%;
+    height: 70px;
+    border: 2px solid black;
+    margin: 10px;
+    top: 0px;
+    position: absolute;
+    right: 4px;
+
+}
+
+.boxmiddle{
+	width: 80%;
+    height: 141px;
+    border: 2px solid black;
+    margin-left: 29px;
+    margin-top: 25px;
+}
+
+.boxlower{
+	 width: 80%;
+    height: 88px;
+    border: 2px solid black;
+    margin: 25px;
+}*/
+
 

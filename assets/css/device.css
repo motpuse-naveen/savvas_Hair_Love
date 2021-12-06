@@ -84,7 +84,7 @@
         margin-top: -24px;
     }
     .author-wrap span.text {
-        margin: 15px;
+       /* margin: 15px;*/
         padding-top: 20px;
     }
     .orbitdiv {
@@ -190,6 +190,9 @@
         font-size: 110px;
         line-height:110px;
     }
+	.hsubtitle{
+	margin-left: 49px;
+}
     .orbitdiv{
         position: fixed;
         height: auto;
@@ -227,7 +230,7 @@
     }
     .actbtnFixed {
         position: absolute;
-        float: right;
+        float: left;
         top: 167px;
         left: unset;
         right: 25px;
@@ -266,6 +269,13 @@
     .popup-content-title{
         font-size: 22px;
     }
+	.boxImage{width:100%;}
+	.avtar{width:100%;}
+	.soundCard{width:100%;}
+	.soundCard1{width:100%; margin-left: -13px;}
+	.imgrefect{width:100%;}
+	.containerimg{width:100%;}
+	
 }
 @media (max-width: 550px) {
     h1.main-heading{
@@ -282,6 +292,12 @@
         float: left;
         margin-bottom: 20px;
     }
+	.boxImage{width:100%;}
+	.avtar{width:100%;}
+	.soundCard{width:100%;}
+	.soundCard1{width:100%; margin-left: -13px;}
+	.imgrefect{width:100%;}
+	.containerimg{width:100%;}
 }
 @media (max-width: 430px) {
     h1.main-heading{
@@ -306,6 +322,12 @@
     .aboutBook{
         font-size: 14px;
     }
+	.boxImage{width:100%;}
+	.avtar{width:100%;}
+	.soundCard{width:100%;}
+	.soundCard1{width:100%; margin-left: -13px;}
+	.imgrefect{width:100%;}
+	.containerimg{width:100%;}
 }
 @media (max-width: 360px) {
     .author-container .author-wrap{
@@ -326,6 +348,12 @@
         position: initial;
         padding-left: 20px;
     }
+	.boxImage{width:100%;}
+	.avtar{width:100%;}
+	.soundCard{width:100%;}
+	.soundCard1{width:100%; margin-left: -13px;}
+	.imgrefect{width:100%;}
+	.containerimg{width:100%;}
 }
 @media (max-width: 360px) {
     h1.main-heading {
@@ -338,4 +366,10 @@
     .moreInfo-additionaltxt .title {
         font-size: 16px;
     }
+	.boxImage{width:100%;}
+	.avtar{width:100%;}
+	.soundCard{width:100%;}
+	.soundCard1{width:100%; margin-left: -13px;}
+	.imgrefect{width:100%;}
+	.containerimg{width:100%;}
 }
