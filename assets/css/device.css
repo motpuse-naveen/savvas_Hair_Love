@@ -234,11 +234,11 @@
         padding: 20px;
     }
     .actbtnFixed {
-        position: absolute;
+        /*position: absolute;
         float: left;
         top: 167px;
         left: unset;
-        right: 25px;
+        right: 25px;*/
     }
     .author-container .text{
         font-size: 16px;

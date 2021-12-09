@@ -683,7 +683,7 @@ h1.main-heading {
     position: absolute;
     top: 107px;
     left: 15px;
-    z-index: 91;
+    z-index: 86;
     background: transparent;
     border-style: none;
     height: 36px;
@@ -1272,7 +1272,9 @@ img.aboutBookCover{
 	margin: 10px auto;
 	}
 	
-	/*.block1{
+	/*.linebottom{color:transparent; border-bottom:1px solid; width:100px; float:left; line-height:1px; font-size:1px;}
+	
+	.block1{
 	width: 100%;
     height: auto;
     border-radius: 16px;
@@ -1322,4 +1324,7 @@ img.aboutBookCover{
     margin: 25px;
 }*/
 
-
+.stline{padding-top:5px; 
+bottom: -5px;
+ position: relative;
+ }
