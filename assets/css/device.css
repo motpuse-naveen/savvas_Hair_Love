@@ -17,6 +17,7 @@
         max-width: 740px;
         margin: 0 auto;
     }
+
     h1.main-heading {
         font-family: 'poppins-semibold';
         font-size: 160px;
@@ -26,13 +27,15 @@
         line-height: 170px;
         margin-right: auto;
     }
+
     .popup-content-col .col-md-12 .popup-left-title {
         margin-top: 0;
         text-align: left;
     }
 }
+
 @media (max-width: 990px) {
-    .author-container .author-wrap{
+    .author-container .author-wrap {
         padding-right: 30px;
     }
 }
@@ -41,16 +44,19 @@
     .author-container {
         position: inherit;
     }
+
     .author-container .author-wrap {
         float: left;
         padding: 20px;
         padding-top: 145px;
     }
+
     .rikshaw-girl-bg {
         background-size: 680px;
         background-position-x: -165px;
         background-position-y: -140px;
     }
+
     .rikshaw-girl-text {
         position: relative;
         padding-top: 60px;
@@ -58,6 +64,7 @@
         max-width: 740px;
         margin: 0 auto;
     }
+
     h1.main-heading {
         font-family: 'poppins-semibold';
         font-size: 160px;
@@ -67,28 +74,33 @@
         line-height: 170px;
         margin-right: auto;
     }
+
     .moreInfo-wrapper {
         float: right;
         width: 370px;
         margin-top: 0px;
     }
+
     .moreInfo-container {
         margin-top: 100px;
     }
+
     .award-circle-wrap {
         padding-left: 100px;
         padding-top: 160px
     }
+
     .author-wrap span.image {
         float: left;
         margin-top: -24px;
     }
+
     .author-wrap span.text {
-       margin-left: 15px;
+        margin-left: 15px;
         padding-top: 20px;
         float: initial;
     }
-   
+
     .orbitdiv {
         position: absolute;
         top: 215px;
@@ -105,100 +117,129 @@
         line-height: 130px;
         padding-left: 20px;
     }
-    
-    .author-container .author-wrap{
+
+    .author-container .author-wrap {
         padding-top: 220px;
     }
+
     .moreInfo-container {
         margin-top: 150px;
     }
-    
+
     .text-content .card {
         height: auto;
         margin-bottom: 1rem;
     }
-    img.aboutBookCover{
+
+    img.aboutBookCover {
         float: left;
     }
-	
-	
+
+
 }
 
 @media (max-width: 730px) {
     .card-body a.card-text {
         font-size: 12px;
     }
+
     .card-body p.card-text {
         font-size: 11px;
     }
+
     .card-back {
         font-size: 9px;
     }
-    .author-container .author-wrap{
+
+    .author-container .author-wrap {
         padding-top: 145px;
     }
+
     .moreInfo-container {
         margin-top: 150px;
     }
-	
+
 }
 
 @media (max-width: 640px) {
-    .topMenuBar2 {display: none;}
-    .orbit1, .orbit2, .orbit3{display: none;}
-    .left-side-bar{display: none;}
-    .popup-concave-col{display: none;}
-    .popup-content-col{
+    .topMenuBar2 {
+        display: none;
+    }
+
+    .orbit1, .orbit2, .orbit3 {
+        display: none;
+    }
+
+    .left-side-bar {
+        display: none;
+    }
+
+    .popup-concave-col {
+        display: none;
+    }
+
+    .popup-content-col {
         flex: 0 0 100%;
         max-width: 100%;
         padding-right: 15px;
         padding-left: 15px;
     }
-    .content-panel{
+
+    .content-panel {
         margin-left: 0px;
         padding-left: 15px;
         padding-right: 15px;
     }
-    .side-disclamer{
+
+    .side-disclamer {
         position: relative;
         width: auto;
     }
+
     .content-panel .text-content h2:first-child {
         padding-top: 10px;
     }
+
     .fixed-head-bar {
         /*display: none;*/
         background-color: transparent;
         background: #000000B2;
-        background: linear-gradient( 180deg, #000000B2 0%, transparent 100%);
-        background: -webkit-linear-gradient( 270deg, #000000B2 0%, transparent 100%);
+        background: linear-gradient(180deg, #000000B2 0%, transparent 100%);
+        background: -webkit-linear-gradient(270deg, #000000B2 0%, transparent 100%);
         background: -moz-linear-gradient(180deg, #000000B2 0%, transparent 100%);
     }
-    .top-mobile-menu-button{
+
+    .top-mobile-menu-button {
         display: block;
-        padding:20px;
+        padding: 20px;
         padding-bottom: 5px;
     }
+
     .container-fs.bb {
         box-shadow: none;
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
     }
-    .slide-beforereading, .slide-duringreading, .slide-afterreading{
+
+    .slide-beforereading, .slide-duringreading, .slide-afterreading {
         margin-top: 90px !important;
     }
-    .rikshaw-girl-text{
+
+    .rikshaw-girl-text {
         padding-top: 90px;
         padding-bottom: 10%;
     }
-    h1.main-heading{
+
+    h1.main-heading {
         font-size: 110px;
-        line-height:110px;
+        line-height: 110px;
     }
-	.hsubtitle{
-	margin-left: 49px;
-}
-    .orbitdiv{
+
+    .hsubtitle {
+        margin-left: 49px;
+    }
+
+    .orbitdiv {
         position: fixed;
         height: auto;
         width: auto;
@@ -206,17 +247,21 @@
         right: 20px;
         z-index: 91;
     }
-    .orbitdiv .moreInfo{
+
+    .orbitdiv .moreInfo {
         position: unset;
     }
+
     .container-fs.slide.slide-aboutthebook {
         margin-top: 0px;
     }
+
     .rikshaw-girl-bg {
         background-size: 110%;
-        background-position-x: -28px;
-        background-position-y: -140px;
+        background-position-x: -14px;
+        background-position-y: -85px;
     }
+
     .award-circle-wrap {
         padding-left: 0px;
         padding-top: 0px;
@@ -224,15 +269,19 @@
         right: 10%;
         top: 41%;
     }
+
     .moreInfo-wrapper {
         float: left;
     }
-    .moreInfo-wrapper{
+
+    .moreInfo-wrapper {
         width: auto;
     }
-    .moreInfo-additionaltxt{
+
+    .moreInfo-additionaltxt {
         padding: 20px;
     }
+
     .actbtnFixed {
         /*position: absolute;
         float: left;
@@ -240,141 +289,269 @@
         left: unset;
         right: 25px;*/
     }
-    .author-container .text{
+
+    .author-container .text {
         font-size: 16px;
     }
-    .moreInfo-additionaltxt .title{
+
+    .moreInfo-additionaltxt .title {
         font-size: 19px;
     }
-    .content-panel .text-content h2{
+
+    .content-panel .text-content h2 {
         font-size: 32px;
     }
-    .content-panel .text-content h3{
+
+    .content-panel .text-content h3 {
         font-size: 22px;
     }
-    .content-panel .text-content{
+
+    .content-panel .text-content {
         font-size: 15px;
     }
-    .blue-button{
+
+    .blue-button {
         font-size: 15px;
         padding: 3px 12px;
     }
-    .content-panel .text-content h3.blue-heading, .content-panel .text-content p.blue-heading{
+
+    .content-panel .text-content h3.blue-heading, .content-panel .text-content p.blue-heading {
         font-size: 18px;
     }
-    .aboutauthorHeader{
+
+    .aboutauthorHeader {
         font-size: 24px;
     }
-    .popup-content-col{
+
+    .popup-content-col {
         font-size: 15px;
     }
-    .popup-left-title{
+
+    .popup-left-title {
         font-size: 32px;
     }
-    .popup-content-title{
+
+    .popup-content-title {
         font-size: 22px;
     }
-	.boxImage{width:100%;}
-	.avtar{width:100%;}
-	.soundCard{width:100%;}
-	.soundCard1{width:100%; margin-left: -13px;}
-	.imgrefect{width:100%;}
-	.containerimg{width:100%;}
-	
+
+    .boxImage {
+        width: 100%;
+    }
+
+    .avtar {
+        width: 100%;
+    }
+
+    .soundCard {
+        width: 100%;
+    }
+
+    .soundCard1 {
+        width: 100%;
+        margin-left: -13px;
+    }
+
+    .imgrefect {
+        width: 100%;
+    }
+
+    .containerimg {
+        width: 100%;
+    }
+    .annim-bg-image {
+        animation: bgImageSlideMobile 2s normal;
+    }
+
 }
+
 @media (max-width: 550px) {
-    h1.main-heading{
+    h1.main-heading {
         font-size: 90px;
         line-height: 90px;
     }
+
     .award-circle-wrap {
         top: 31%;
     }
-    img.aboutBookCover{
+
+    img.aboutBookCover {
         width: 200px;
     }
-    .aboutBook{
+
+    .aboutBook {
         float: left;
         margin-bottom: 20px;
     }
-	.boxImage{width:100%;}
-	.avtar{width:100%;}
-	.soundCard{width:100%;}
-	.soundCard1{width:100%; margin-left: -13px;}
-	.imgrefect{width:100%;}
-	.containerimg{width:100%;}
+
+    .boxImage {
+        width: 100%;
+    }
+
+    .avtar {
+        width: 100%;
+    }
+
+    .soundCard {
+        width: 100%;
+    }
+
+    .soundCard1 {
+        width: 100%;
+        margin-left: -13px;
+    }
+
+    .imgrefect {
+        width: 100%;
+    }
+
+    .containerimg {
+        width: 100%;
+    }
 }
+
 @media (max-width: 430px) {
-    h1.main-heading{
+    h1.main-heading {
         font-size: 80px;
         line-height: 80px;
     }
+
     .rikshaw-girl-text {
         padding-bottom: 0%;
     }
+
     .award-circle-wrap {
         top: 26%;
     }
-    .author-container .text{
+
+    .author-container .text {
         font-size: 16px;
     }
-    .aboutBookCover-wrap{
+
+    .aboutBookCover-wrap {
         float: left;
     }
-    img.aboutBookCover{
+
+    img.aboutBookCover {
         width: 180px;
     }
-    .aboutBook{
+
+    .aboutBook {
         font-size: 14px;
     }
-	.boxImage{width:100%;}
-	.avtar{width:100%;}
-	.soundCard{width:100%;}
-	.soundCard1{width:100%; margin-left: -13px;}
-	.imgrefect{width:100%;}
-	.containerimg{width:100%;}
+
+    .boxImage {
+        width: 100%;
+    }
+
+    .avtar {
+        width: 100%;
+    }
+
+    .soundCard {
+        width: 100%;
+    }
+
+    .soundCard1 {
+        width: 100%;
+        margin-left: -13px;
+    }
+
+    .imgrefect {
+        width: 100%;
+    }
+
+    .containerimg {
+        width: 100%;
+    }
 }
+
 @media (max-width: 360px) {
-    .author-container .author-wrap{
+    .author-container .author-wrap {
         padding: 10px;
         padding-top: 145px;
     }
-    .moreInfo-additionaltxt{
+
+    .moreInfo-additionaltxt {
         padding: 10px;
     }
-    .orbitdiv{
+
+    .orbitdiv {
         top: 20px;
         right: 15px;
     }
-    .aboutBook{
+
+    .aboutBook {
         float: left;
     }
-    .actbtnFixed{
+
+    .actbtnFixed {
         position: initial;
         padding-left: 20px;
     }
-	.boxImage{width:100%;}
-	.avtar{width:100%;}
-	.soundCard{width:100%;}
-	.soundCard1{width:100%; margin-left: -13px;}
-	.imgrefect{width:100%;}
-	.containerimg{width:100%;}
+
+    .boxImage {
+        width: 100%;
+    }
+
+    .avtar {
+        width: 100%;
+    }
+
+    .soundCard {
+        width: 100%;
+    }
+
+    .soundCard1 {
+        width: 100%;
+        margin-left: -13px;
+    }
+
+    .imgrefect {
+        width: 100%;
+    }
+
+    .containerimg {
+        width: 100%;
+    }
 }
+
 @media (max-width: 360px) {
     h1.main-heading {
         font-size: 65px;
         line-height: 65px;
     }
+
     .author-container .text {
         font-size: 16px;
     }
+
     .moreInfo-additionaltxt .title {
         font-size: 16px;
     }
-	.boxImage{width:100%;}
-	.avtar{width:100%;}
-	.soundCard{width:100%;}
-	.soundCard1{width:100%; margin-left: -13px;}
-	.imgrefect{width:100%;}
-	.containerimg{width:100%;}
+
+    .boxImage {
+        width: 100%;
+    }
+
+    .avtar {
+        width: 100%;
+    }
+
+    .soundCard {
+        width: 100%;
+    }
+
+    .soundCard1 {
+        width: 100%;
+        margin-left: -13px;
+    }
+
+    .imgrefect {
+        width: 100%;
+    }
+
+    .containerimg {
+        width: 100%;
+    }
 }

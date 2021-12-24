@@ -1250,6 +1250,15 @@ img.aboutBookCover {
     background-position-x: -125px;
   }
 }
+@-webkit-keyframes bgImageSlideMobile{
+  from {
+      background-position-y: -340px;
+  }
+
+  to {
+      background-position-y: -85px;
+  }
+}
 
 .zposition {
   min-width: 350px;
