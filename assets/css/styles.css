@@ -306,6 +306,7 @@ a:hover {
   margin-right: 11px;
   position: fixed;
   bottom: 0;
+  left: 0;
   width: 165px;
 }
 
@@ -609,7 +610,7 @@ table.table-style2 .trbg {
 
 .award-circle-wrap {
   padding-left: 30px;
-  padding-top: 61px;
+  padding-top: 160px;
 }
 
 .award-circle {
@@ -646,7 +647,7 @@ h1.main-heading {
   text-shadow: 15px 0px 47px rgb(0 0 0);
   color: #ffffff;
   letter-spacing: -10px;
-  line-height: 170px;
+  line-height: 140px;
   margin-right: 72px;
 }
 .hsubtitle {
@@ -693,7 +694,7 @@ h1.main-heading {
 .moreInfo-wrapper {
   float: right;
   width: 370px;
-  margin-top: -136px;
+  margin-top: -75px;
 }
 .moreInfo {
   position: absolute;
@@ -1145,6 +1146,9 @@ img.aboutBookCover {
   height: 100%;
   background: #000000;
   opacity: 0.8;
+}
+.moreinfolowerzindex{
+  z-index: 89 !important;
 }
 /*Annimation*/
 

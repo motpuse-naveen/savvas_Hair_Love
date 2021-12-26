@@ -24,13 +24,16 @@
         text-shadow: 15px 0px 47px rgb(0 0 0);
         color: #FFFFFF;
         letter-spacing: -5px;
-        line-height: 170px;
+        line-height: 120px;
         margin-right: auto;
     }
 
     .popup-content-col .col-md-12 .popup-left-title {
         margin-top: 0;
         text-align: left;
+    }
+    .moreInfo-wrapper{
+        margin-top: -32px;
     }
 }
 
@@ -71,7 +74,7 @@
         text-shadow: 15px 0px 47px rgb(0 0 0);
         color: #FFFFFF;
         letter-spacing: -5px;
-        line-height: 170px;
+        /*line-height: 170px;*/
         margin-right: auto;
     }
 
@@ -112,9 +115,9 @@
 
 @media (max-width: 760px) {
     h1.main-heading {
-        font-size: 130px;
+        /*font-size: 130px;*/
         letter-spacing: -5px;
-        line-height: 130px;
+        /*line-height: 100px;*/
         padding-left: 20px;
     }
 
@@ -194,6 +197,8 @@
     .side-disclamer {
         position: relative;
         width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .content-panel .text-content h2:first-child {
@@ -231,8 +236,8 @@
     }
 
     h1.main-heading {
-        font-size: 110px;
-        line-height: 110px;
+        /*font-size: 110px;
+        line-height: 110px;*/
     }
 
     .hsubtitle {
@@ -367,8 +372,8 @@
 
 @media (max-width: 550px) {
     h1.main-heading {
-        font-size: 90px;
-        line-height: 90px;
+        font-size: 120px;
+        line-height: 95px;
     }
 
     .award-circle-wrap {
