@@ -14,7 +14,18 @@ ol,
 ul,
 dl {
   margin: 0px;
+  
 }
+
+
+ol.numberlist li {
+  margin: 10px 0;
+}
+
+ol.numberlist li:before {
+  content: "\200B";
+}
+
 
 a {
   cursor: pointer;
