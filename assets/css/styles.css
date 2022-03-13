@@ -320,7 +320,12 @@ a:hover {
   left: 0;
   width: 165px;
 }
-
+.side-disclamer .disctext {
+  font-size: 11px !important;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+  margin-bottom: 0px !important;
+}
 .bold {
   font-family: "poppins-bold";
 }
