@@ -51,7 +51,7 @@
     .author-container .author-wrap {
         float: left;
         padding: 20px;
-        padding-top: 145px;
+        padding-top: 0px;
     }
 
     .rikshaw-girl-bg {
@@ -80,7 +80,7 @@
 
     .moreInfo-wrapper {
         float: right;
-        width: 370px;
+        width: 330px;
         margin-top: 0px;
     }
 
@@ -89,8 +89,8 @@
     }
 
     .award-circle-wrap {
-        padding-left: 100px;
-        padding-top: 160px
+        padding-left: 272px;
+        padding-top: 0px;
     }
 
     .author-wrap span.image {
@@ -103,6 +103,15 @@
         padding-top: 20px;
         float: initial;
     }
+    /*NM: 11-05-2022*/
+ .moreInfo-additionaltxt {
+    padding: 40px 28px;
+}
+/*NM: 11-05-2022*/
+.bg-image-opacity{
+    display: block;
+}
+
 
     .orbitdiv {
         position: absolute;
@@ -172,7 +181,18 @@
     .orbit1, .orbit2, .orbit3 {
         display: none;
     }
-
+      /*NM: 11-05-2022*/
+      .author-container.desktop{
+        display: none;
+    }
+    /*NM: 11-05-2022*/
+    .author-container.mobile{
+        display: block;
+    }
+    /*NM: 11-05-2022*/
+    .author-container.mobile .author-wrap {
+        padding-top: 140px;
+    }
     .left-side-bar {
         display: none;
     }
@@ -420,13 +440,16 @@
         font-size: 80px;
         line-height: 80px;
     }
+    .author-container .author-wrap {
 
+    }
     .rikshaw-girl-text {
         padding-bottom: 0%;
     }
 
     .award-circle-wrap {
-        top: 26%;
+        top: 30%;
+        left: 233px;
     }
 
     .author-container .text {
