@@ -52,6 +52,7 @@
         float: left;
         padding: 20px;
         padding-top: 0px;
+        padding-right: 0px;
     }
 
     .rikshaw-girl-bg {
@@ -81,7 +82,7 @@
     .moreInfo-wrapper {
         float: right;
         width: 330px;
-        margin-top: 0px;
+        margin-top: 20px;
     }
 
     .moreInfo-container {
@@ -89,7 +90,7 @@
     }
 
     .award-circle-wrap {
-        padding-left: 272px;
+        /*padding-left: 272px;*/
         padding-top: 0px;
     }
 
@@ -105,7 +106,7 @@
     }
     /*NM: 11-05-2022*/
  .moreInfo-additionaltxt {
-    padding: 40px 28px;
+    padding: 10px 10px;
 }
 /*NM: 11-05-2022*/
 .bg-image-opacity{
@@ -131,7 +132,10 @@
     }
 
     .author-container .author-wrap {
-        padding-top: 220px;
+        /*padding-top: 220px;*/
+    }
+    .author-container .text{
+        font-size: 18px;
     }
 
     .moreInfo-container {
@@ -164,13 +168,21 @@
     }
 
     .author-container .author-wrap {
-        padding-top: 145px;
+        /*padding-top: 145px;*/
     }
 
     .moreInfo-container {
         margin-top: 150px;
     }
 
+}
+@media (max-width: 690px) {
+    .author-container .text {
+        font-size: 16px;
+    }
+    .moreInfo-wrapper{
+        width: 280px;
+    }
 }
 
 @media (max-width: 640px) {
@@ -191,7 +203,7 @@
     }
     /*NM: 11-05-2022*/
     .author-container.mobile .author-wrap {
-        padding-top: 140px;
+        padding-top: 160px;
     }
     .left-side-bar {
         display: none;
@@ -397,7 +409,8 @@
     }
 
     .award-circle-wrap {
-        top: 31%;
+        top: 30%;
+        right: 10px;
     }
 
     img.aboutBookCover {
@@ -446,12 +459,12 @@
     .rikshaw-girl-text {
         padding-bottom: 0%;
     }
-
+    /*
     .award-circle-wrap {
         top: 30%;
         left: 233px;
     }
-
+*/
     .author-container .text {
         font-size: 16px;
     }
